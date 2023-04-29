@@ -1,53 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>winqdev</title>
-<meta name="description" content="Hi, Im Winq (Victor), i'm from Moldova, i got skills on NodeJS, Lua, HTML, CSS">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav id="navbar">
-    <ul>
-      <li><a href="#welcome-section">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <section id="welcome-section">
-    <h1>Hi, I am Winq</h1>
-    <p>a backend developer</p>
-  </section>
-  <section id="projects">
-    <h2>Some projects made by me</h2>
-    <div class="project-container">
-      <div class="project-tile">
-        <a target="_blank" href="https://github.com/winqdev/mongodb-api">
-          <img src="https://cdn.discordapp.com/attachments/1067537639143657473/1067537654402527243/58481021cef1014c0b5e494b.png" alt="MongoDB API">
-          <div class="title">MongoDB API</div>
-        </a>
+  <head>
+    <title>WinqDEV | Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon"
+    href="https://avatars.githubusercontent.com/u/103835411?v=4" />
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <meta name="description" content="Hi, Im Winq (Victor), i'm from Moldova, i got skills on NodeJS, Lua, HTML, CSS, Python, SourcePawn">
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  </head>
+  <body>
+    <div id="container">
+    <img class="avatar" src="https://avatars.githubusercontent.com/u/103835411?v=4" >
+    <div class="social-icons">
+      <a id="github" href="https://github.com/winqdev"><i class="fab fa-github"></i></a>
+      <a id="npm" href="https://www.npmjs.com/~winqdev"><i class="fab fa-npm"></i></a>
+      <a id="steam" href="https://steamcommunity.com/profiles/76561199223105160/"><i class="fab fa-steam"></i></a>
+      <a id="youtube" href="https://www.youtube.com/channel/UCuH9iN7hf4uqUMWI2TpCwdw"><i class="fab fa-youtube"></i></a>
+      <a id="twitter" href="https://twitter.com/winqdev"><i class="fab fa-twitter"></i></a>
       </div>
-      <div class="project-tile">
-        <a target="_blank" href="https://github.com/winqdev/email-api">
-          <img src="https://cdn.discordapp.com/attachments/1067537639143657473/1067538231467450370/email-and-mail-icon-sign-symbol-design-free-png.png" alt="EMail API">
-          <div class="title">EMail API</div>
-        </a>
-      </div>
-      <div class="project-tile">
-        <a target="_blank" href="https://github.com/winqdev/youtube-converter">
-          <img src="https://cdn.discordapp.com/attachments/1067537639143657473/1067538954645147748/image.png" alt="YouTube Converter">
-          <div class="title">YouTube Converter</div>
-        </a>
-      </div>
-      <div class="project-tile">
-        <a target="_blank" href="https://github.com/winqdev/Discord-FiveM-Checker-Bot">
-          <img src="https://cdn.discordapp.com/attachments/1067537639143657473/1067539433827610794/discord-logo-logodownload-download-logotipos-1.png" alt="Discord Bot (FiveM Server Stats)">
-          <div class="title">Discord Bot (FiveM Server Stats)</div>
-        </a>
-      </div>
-  </section>
-  <section id="contact">
-    <h2>Let's work together</h2>
-      <a target="_blank" href="mailto:winqdev@yahoo.com" title="winqdev@yahoo.com">Email me</a>
-  </section>
-</body>
+      <h2 id="anim-text"></h2>
+      <br><br><br><br><br>
+      <button onclick="changebg()" id="night">How did you find me?</button>
+    </div>
+  </body>
+  <script>
+      var typed = new Typed('#anim-text', {
+    strings: ['Think', 'Team-Up', 'Create', 'Develop', 'Earn'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true
+  });
+  </script>
 </html>
