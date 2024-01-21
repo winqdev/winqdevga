@@ -29,6 +29,11 @@ body {
     border-radius: 50%;
     color: #00adee;
   }
+
+  .social-icons #telegram:hover {
+    borser-radius: 50%;
+    color: cyan;
+  }
   
   .social-icons {
     display: flex;
